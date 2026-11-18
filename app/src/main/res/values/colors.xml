@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#327EB8</color>
+    <color name="colorCircle">#BF633C</color>
+    <color name="colorAccent">#22ED8B</color>
+    <color name="colorAccentPressed">#17C674</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorOnAccent">#FFFFFF</color>
+    <color name="colorFieldBackground">#FFFFFF</color>
+    <color name="colorFieldStroke">#D3E1EE</color>
+    <color name="colorTextField">#22313F</color>
+    <color name="colorHint">#8C99A6</color>
+    <color name="ic_launcher_background">#327EB8</color>
+</resources>
