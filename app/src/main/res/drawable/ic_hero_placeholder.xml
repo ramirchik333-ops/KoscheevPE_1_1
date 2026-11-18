@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Заглушка иллюстрации первого экрана. Замените файл на свою картинку. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="190dp"
+    android:viewportWidth="150"
+    android:viewportHeight="190">
+
+    <!-- Лист -->
+    <path
+        android:fillColor="#FFFDF6"
+        android:pathData="M10,10 h108 a8,8 0 0 1 8,8 v154 a8,8 0 0 1 -8,8 h-108 a8,8 0 0 1 -8,-8 v-154 a8,8 0 0 1 8,-8 z" />
+
+    <!-- Отогнутый угол -->
+    <path
+        android:fillColor="#EEE8DA"
+        android:pathData="M98,10 h20 a8,8 0 0 1 8,8 v26 h-28 z" />
+
+    <!-- Строки -->
+    <path
+        android:fillColor="#D8D3C6"
+        android:pathData="M22,46 h60 a5,5 0 0 1 0,10 h-60 a5,5 0 0 1 0,-10 z" />
+    <path
+        android:fillColor="#D8D3C6"
+        android:pathData="M22,78 h44 a5,5 0 0 1 0,10 h-44 a5,5 0 0 1 0,-10 z" />
+    <path
+        android:fillColor="#D8D3C6"
+        android:pathData="M22,110 h66 a5,5 0 0 1 0,10 h-66 a5,5 0 0 1 0,-10 z" />
+    <path
+        android:fillColor="#E4E0D5"
+        android:pathData="M22,142 h34 a5,5 0 0 1 0,10 h-34 a5,5 0 0 1 0,-10 z" />
+
+    <!-- Карандаш -->
+    <group
+        android:pivotX="75"
+        android:pivotY="95"
+        android:rotation="-38">
+        <path
+            android:fillColor="#E8A33D"
+            android:pathData="M40,88 h70 a6,6 0 0 1 6,6 v10 a6,6 0 0 1 -6,6 h-70 z" />
+        <path
+            android:fillColor="#F5C776"
+            android:pathData="M40,94 h70 a4,4 0 0 1 4,4 v4 a4,4 0 0 1 -4,4 h-70 z" />
+        <path
+            android:fillColor="#2E3A46"
+            android:pathData="M40,86 l-16,15 l16,15 z" />
+    </group>
+</vector>

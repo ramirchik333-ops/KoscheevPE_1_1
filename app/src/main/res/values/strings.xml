@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Конвертер</string>
+    <string name="main_title">Конвертер единиц\nинформации</string>
+    <string name="converter_title">Конвертер единиц\nинформации</string>
+    <string name="start">Начать</string>
+    <string name="calculate">Вычислить</string>
+    <string name="enter_number">Введите число</string>
+    <string name="result_hint">Результат</string>
+    <string name="from_label">Из</string>
+    <string name="to_label">В</string>
+    <string name="hero_image_description">Иллюстрация конвертера единиц информации</string>
+    <string name="error_empty_input">Введите число</string>
+    <string name="error_invalid_number">Введите корректное число</string>
+
+    <string-array name="units">
+        <item>Байт</item>
+        <item>Килобайт</item>
+        <item>Мегабайт</item>
+        <item>Гигабайт</item>
+    </string-array>
+</resources>
