@@ -45,10 +45,11 @@ public class ConverterActivity extends Activity {
         resultField = findViewById(R.id.resultText);
 
         // Разрешаем и точку, и запятую: раскладки клавиатур различаются.
-        inputField.setKeyListener(DigitsKeyListener.getInstance("0123456789,.-"));
+        // Порядок важен: setRawInputType создаёт свой фильтр, поэтому DigitsKeyListener — последним.
         inputField.setRawInputType(InputType.TYPE_CLASS_NUMBER
                 | InputType.TYPE_NUMBER_FLAG_DECIMAL
                 | InputType.TYPE_NUMBER_FLAG_SIGNED);
+        inputField.setKeyListener(DigitsKeyListener.getInstance("0123456789,.-"));
 
         setupUnitSpinners();
 
